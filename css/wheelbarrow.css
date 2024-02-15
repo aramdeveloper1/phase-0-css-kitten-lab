@@ -3,7 +3,7 @@ html {
 }
 
 img {
-  position: relative;
+  position: absolute;
   z-index: 11;
   cursor: pointer;
 }
@@ -21,8 +21,8 @@ img {
   height: 514px;
 }
 
-#wheelbarrow { 
-  position: relative;
+#wheelbarrow {
+  position: absolute;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
   top: 220px;
